@@ -8,6 +8,9 @@
   type: github
   icon: 'fab fa-github-alt'
 -
+  icon: 'fab fa-telegram'
+  url: 'https://t.me/im4m0r'
+-
   type: twitter
   icon: 'fab fa-twitter'
 -
@@ -15,9 +18,8 @@
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
 -
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
+  icon: 'fab fa-instagram'
+  url: 'https://instagram.com/im4m0r'
 
 # Uncomment and complete the url below to enable more contact options
 # -
