@@ -27,8 +27,8 @@ tags: [linux, webshell, luvit, lua, without metasploit]
 3. Privilege Escalation via., SSH welcome banner
 
 # Open Ports Enumeration
-The open ports enumeration of the target[^footnote] had identified two open services SSH (20) and HTTP (80). The scan had not
-identified any known vulnerabilities. The scan results are given on the section below.
+The open ports enumeration of the target[^footnote] had identified two open services SSH (20) and HTTP (80). The scan 
+had not identified any known vulnerabilities. The scan results are given on the section below.
 
 ```
 [_4m0r@manjaro Traceback]$ targetRecon 10.10.10.181 
