@@ -26,7 +26,7 @@ github:
   username: 4m0r             # change to your github username
 
 twitter:
-  username: muraallee            # change to your twitter username
+  username: im4m0r            # change to your twitter username
 
 social:
   name: Murali Vallimanalan                  # it will shows as the copyright owner in Footer
@@ -52,7 +52,7 @@ baseurl: ''
 timezone: Asia/Kolkata
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: 'UA-174140109-1'          # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
@@ -63,10 +63,11 @@ google_analytics:
     cache: false  # pv data local cache, good for the users from GFW area.
 
 disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  comments: true  # boolean type, the global switch for posts comments.
+  shortname: '4m0r'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
-
+plugins:
+  - jekyll-seo-tag
 # Prefer color scheme setting, available values:
 #
 #     dual   - Follow the system prefer color by default, and a toggle will display
