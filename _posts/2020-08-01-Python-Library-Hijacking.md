@@ -36,7 +36,7 @@ dst = '/var/backups/html'
 make_archive(dst, 'gztar', src)
 ```
 As seen from the code, the script imports a module called *make_archive* from the **shutil** library. An important thing
- to understand about Python is that, it imports modules by searching for them in pre-defined directories in an order of 
+ to understand about Python is that, it imports modules by searching for them in pre-defined directories, in an order of 
 priority and uses the first occurrence.
 
 ## Abusing Python Library Path with insecure permissions
@@ -60,6 +60,9 @@ waldo@admirer:/opt/scripts$ find /usr -type f -name shutil.py
 /usr/lib/python3.5/shutil.py
 /usr/lib/python2.7/shutil.py
 ```
+Theoretically, if the user has write access to */usr/lib/python\[version]*, a duplicate library with the same name as 
+the original and with malicious content can be placed there. Therefore, when the backup script is executed, this 
+duplicate library and module gets presented as the first occurrence and subsequently gets executed. <br>
 Unfortunately, the user I had access as, did not had write access on any of these directories. So I moved on to the 
 next method.
 
@@ -93,6 +96,10 @@ root@admirer:/home/waldo/shutil# id
 id
 uid=0(root) gid=0(root) groups=0(root)
 ```
+
+# Takeaway
+During privilege escalation enumeration, if you were to come across a Python script with elevated execution privileges
+and uses misconfigured python libraries, it can be leveraged to a *root* shell by hijacking the library path.
 
 # Footnotes
 [^f1]:[PYTHONPATH](https://docs.python.org/3/using/cmdline.html#environment-variables)
