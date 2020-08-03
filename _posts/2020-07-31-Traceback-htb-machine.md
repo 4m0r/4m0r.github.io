@@ -113,7 +113,7 @@ Nmap done: 1 IP address (1 host up) scanned in 69.75 seconds
 Based on the results, the HTTP service was designated as the first service for enumeration.
 
 # Web Service Enumeration
-Browsing to [http://10.10.10.181](http://10.10.10.181), resulted in a static page with the message given below.
+Browsing to [http://10.10misconfigured.10.181](http://10.10.10.181), resulted in a static page with the message given below.
 ```
 This site has been owned
 I have left a backdoor for all the net. FREE INTERNETZZZ
