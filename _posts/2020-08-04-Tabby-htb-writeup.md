@@ -2,8 +2,8 @@
 title: Tabby Machine Writeup- HackTheBox
 author: 4m0r
 date: 2020-08-04 15:50:00 +0530
-excerpt: A linux box from HackTheBox- gained foothold by exploiting Bludit CMS vulnerabilities and rooted by vulnerable
-         sudo version. This is an active machine, so I highly recommend that you try a bit harder before heading inside.
+excerpt: A linux box from HackTheBox- gained foothold by exploiting Tomcat 9 credentials and rooted by lxd group 
+         membership. This is an active machine, so I highly recommend that you try a bit harder before heading inside.
 thumbnail: /assets/img/posts/tabby/info.png
 categories: [HackTheBox, Machine]
 tags: [linux, CMS, Bludit, sudo]
