@@ -177,7 +177,7 @@ Nmap done: 1 IP address (1 host up) scanned in 1288.20 seconds
                 No vuln found
 ```
 
-# Web Enumeration
+# Web Service Enumeration
 A *nikto* scan had been done, with no useful information being identified. Browsing to 
 [http://10.10.10.191](http://10.10.10.191), had revealed a *blog* filled with interesting facts about *stadia, Stephen 
 King* and *USB* (potential wordlist). Browsing to [http://10.10.10.191/admin](http://10.10.10.191/admin) had revealed the 
@@ -407,7 +407,7 @@ fec3d---REDACTED---fcadd
 ```
 ![User Shell](/assets/img/posts/blunder/user.png)
 
-# Privilege Escalation
+# Root Shell
 Upon gaining shell as *hugo*, the **sudo** permissions were enumerated and found that they had been restricted to run
 *bash* command as the root user.
 ```shell 
@@ -446,7 +446,7 @@ cat root.txt
 ```
 ![Root Flag](/assets/img/posts/blunder/root.png)
 
-# Footnotes
+# Resources
 [^f1]:[targetRecon](https://github.com/4m0r/targetRecon)
 [^f2]:[CVE-2019-16113.py](https://github.com/cybervaca/CVE-2019-16113/blob/master/CVE-2019-16113.py)
 [^f3]:[Bludit Brute Force Mitigation Bypass](https://rastating.github.io/bludit-brute-force-mitigation-bypass/)

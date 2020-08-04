@@ -101,5 +101,5 @@ uid=0(root) gid=0(root) groups=0(root)
 During privilege escalation enumeration, if you were to come across a Python script with elevated execution privileges
 and uses misconfigured python libraries, it can be leveraged to a *root* shell by hijacking the library path.
 
-# Footnotes
+# Resources
 [^f1]:[PYTHONPATH](https://docs.python.org/3/using/cmdline.html#environment-variables)

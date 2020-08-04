@@ -450,7 +450,7 @@ d9e7a---REDACTED---88cd2
 ```
 ![Root Shell](/assets/img/posts/remote/root.png)
 
-# Footnotes
+# Resources
 [^f1]:[targetRecon](https://github.com/4m0r/targetRecon)
 [^f2]:[Umbraco-RCE](https://github.com/noraj/Umbraco-RCE)
 [^f3]:[Invoke-PowerShellTcp.ps1](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1)

@@ -341,7 +341,8 @@ root@traceback:/home/sysadmin#
 > **complete compromise of the target.**
 
 ![Root Shell](/assets/img/posts/traceback/root.png)
-# Footnotes
+
+# Resources
 [^footnote]:[targetRecon](https://github.com/4m0r/targetRecon)
 [^footnote2]:[Web-Shells Repository](https://github.com/TheBinitGhimire/Web-Shells)
 [^footnote3]:[../lua on GTFOBins](https://gtfobins.github.io/gtfobins/lua/)
