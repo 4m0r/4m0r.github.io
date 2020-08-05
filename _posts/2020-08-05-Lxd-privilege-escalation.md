@@ -1,7 +1,7 @@
 ---
 title: LXD Privilege Escalation
 author: 4m0r
-date: 2020-08-04 22:00:00 +0530
+date: 2020-08-05 17:00:00 +0530
 excerpt: A writeup on how I escalated my privileges to root, through LXD group membership.
 thumbnail: /assets/img/posts/lxd/info.jpg
 categories: [Tutorial]

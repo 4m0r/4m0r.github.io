@@ -241,9 +241,10 @@ cat user.txt
 Checking the **id** of the user ash had revealed that they are part of the **lxd** group. Google-Fu had identified a 
 privilege escalation method[^f6][^f7] through lxd installation and group permissions.
 <br>
->*LXD is a root process that carries out actions for anyone with write access to the LXD UNIX socket. It often does not 
-attempt to match the privileges of the calling user. There are multiple methods to exploit this. One such method is to 
-use the LXD API to mount the host’s root filesystem into a container.* **More on [Resources](#resources)**
+>*LXD does not attempt to match the privileges of the calling user. There are multiple methods to exploit this. One such 
+> method is to use the LXD API to mount the host’s root filesystem into a container.* 
+> **Detailed info on LXD and the exploitation on 
+>[LXD Privilege Escalation](https://4m0r.github.io/posts/Lxd-privilege-escalation/)**
 
 The process involves downloading and building the latest Alpine image as root user on the attacking machine, 
 transferring it to the target, importing and initializing the image inside a container, and mounting the container 
