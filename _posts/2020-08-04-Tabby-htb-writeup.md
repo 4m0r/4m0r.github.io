@@ -323,6 +323,7 @@ cat root.txt
 3c4c9---REDACTED---5ffac
 ```
 ![Root Shell](/assets/img/posts/tabby/root.png)
+
 # Resources
 [^f1]:[targetRecon](https://github.com/4m0r/targetRecon)
 [^f2]:[File List of Tomcat 9 package](https://packages.debian.org/sid/all/tomcat9/filelist)
